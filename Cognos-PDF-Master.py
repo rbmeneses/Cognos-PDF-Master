@@ -268,7 +268,7 @@ def navigate_to(tool_name):
     st.session_state['active_tool'] = tool_name
 
 def render_home():
-    st.title("CognosIA - PDF Master")
+    st.title("CognosIA PDF Master --- ☕ Apoie o Projeto (PIX) 21980892973")
     st.markdown("### Selecione uma ferramenta")
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -474,3 +474,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
