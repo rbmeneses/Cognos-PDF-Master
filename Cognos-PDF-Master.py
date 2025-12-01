@@ -270,6 +270,7 @@ def navigate_to(tool_name):
 def render_home():
     st.title("Cognos PDF Master")
     st.markdown("### Selecione uma ferramenta")
+    st.markdown("### ☕ Apoie o Projeto (PIX) 21980892973")
     st.markdown("<br>", unsafe_allow_html=True)
 
     tools = [
@@ -474,5 +475,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
