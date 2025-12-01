@@ -1,0 +1,1 @@
+streamlit run Cognos-PDF-Master.py
