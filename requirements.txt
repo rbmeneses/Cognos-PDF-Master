@@ -1,0 +1,5 @@
+streamlit
+pymupdf
+reportlab
+python-docx
+pdf2docx
