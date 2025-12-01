@@ -13,7 +13,7 @@ from pdf2docx import Converter # ### NOVO: Necessário pip install pdf2docx
 
 # --- Configuração da Página e CSS ---
 st.set_page_config(
-    page_title="Cognos PDF Master --- ☕ Apoie o Projeto (PIX) 21980892973",
+    page_title="Cognos PDF Master",
     page_icon="👁️",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -268,7 +268,7 @@ def navigate_to(tool_name):
     st.session_state['active_tool'] = tool_name
 
 def render_home():
-    st.title("CognosIA PDF Master --- ☕ Apoie o Projeto (PIX) 21980892973")
+    st.title("Cognos PDF Master")
     st.markdown("### Selecione uma ferramenta")
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -474,4 +474,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
